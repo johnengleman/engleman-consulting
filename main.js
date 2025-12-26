@@ -71,7 +71,6 @@
     nav.addEventListener("click", (e) => {
       const target = e.target;
       if (!(target instanceof HTMLAnchorElement)) return;
-      if (!target.getAttribute("href")?.startsWith("#")) return;
       setOpen(false);
     });
   }

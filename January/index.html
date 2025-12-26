@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>January — Blog | John Engleman</title>
+    <meta
+      name="description"
+      content="A daily January log. One static section per day."
+    />
+
+    <meta property="og:title" content="January — Blog | John Engleman" />
+    <meta
+      property="og:description"
+      content="A daily January log. One static section per day."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/January" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="January — Blog | John Engleman" />
+    <meta
+      name="twitter:description"
+      content="A daily January log. One static section per day."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../styles.css" />
+
+    <link rel="icon" href="data:," />
+  </head>
+
+  <body class="page-blog">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <div class="brand">
+          <a class="brand-link" href="/" aria-label="Home">
+            <span class="brand-name">John Engleman</span>
+            <span class="brand-title"
+              >Senior Product Engineer (C2C) — Next.js / Node.js</span
+            >
+          </a>
+        </div>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-controls="site-nav"
+          aria-expanded="false"
+          data-nav-toggle
+        >
+          Menu
+        </button>
+
+        <nav class="nav" id="site-nav" aria-label="Primary" data-nav>
+          <a class="nav-link" href="/#work">Work</a>
+          <a class="nav-link" href="/#experience">Experience</a>
+          <a class="nav-link" href="/#projects">Projects</a>
+          <a class="nav-link" href="/#skills">Skills</a>
+          <a class="nav-link" href="/#contact">Contact</a>
+
+          <div class="nav-cta">
+            <a
+              class="btn btn-primary"
+              href="/John_Engleman_Resume.pdf"
+              target="_blank"
+              rel="noopener"
+            >
+              Resume
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="main" tabindex="-1">
+      <div id="top" class="top-anchor" aria-hidden="true"></div>
+
+      <div class="container editorial">
+        <section class="section hero" aria-label="January blog header">
+          <h1>January</h1>
+
+          <div class="hero-block" aria-label="Jump to a day">
+            <h2 class="eyebrow">Jump to day</h2>
+            <div class="chips">
+              <a class="chip" href="#day-01">1</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" aria-label="January entries">
+          <h2>Days</h2>
+
+          <div class="stack">
+            <article class="card" id="day-01" aria-label="January 1">
+              <header class="case-head">
+                <h3>January 1</h3>
+                <p class="meta">Add your entry for the day.</p>
+              </header>
+              <p class="meta muted">(Write here)</p>
+            </article>
+          </div>
+        </section>
+
+        <footer class="footer" aria-label="Footer">
+          <div class="footer-inner">
+            <button
+              class="btn btn-ghost"
+              type="button"
+              data-theme-toggle
+              aria-pressed="false"
+            >
+              Dark mode
+            </button>
+            <a class="back-top" href="#top">Back to top</a>
+          </div>
+        </footer>
+      </div>
+    </main>
+
+    <script src="../main.js" defer></script>
+  </body>
+</html>

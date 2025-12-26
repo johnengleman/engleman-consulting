@@ -425,6 +425,20 @@ dd {
   background: color-mix(in srgb, var(--surface) 80%, transparent);
 }
 
+/* Blog day chips: larger, thumb-friendly touch targets (mobile-first). */
+.page-blog .chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 10px 14px;
+}
+
+.page-blog a.chip:hover {
+  text-decoration: none;
+}
+
 .stack {
   display: grid;
   gap: 16px;

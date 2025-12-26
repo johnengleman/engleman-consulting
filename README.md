@@ -7,6 +7,7 @@ Single-page, static HTML/CSS site designed to be fast, scannable, and recruiter-
 - `index.html`
 - `styles.css`
 - `main.js`
+- `January/index.html` (blog page, route: `/January`)
 - `John_Engleman_Resume.pdf` (add this file)
 
 ## Resume PDF
